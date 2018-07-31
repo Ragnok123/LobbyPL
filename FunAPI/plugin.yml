@@ -1,0 +1,55 @@
+name: FunAPI
+main: Ragnok123\FunAPI
+version: 1.0
+api: [3.0.0]
+load: POSTWORLD
+author: Ragnok123
+website: wallguard.esy.ss
+commands:
+ sb:
+  description: sb
+ bpos:
+  description: "/bpos"
+ spawn:
+  description: "/spawn"
+ ftransfer:
+  description: "/ftransfer"
+ donate:
+  description: "/donate"
+  default: op
+ tpall:
+  aliases: [tpl]
+  description: "/tpall"
+ clear:
+  aliases: [cl]
+  description: "/clear"
+ gm:
+  aliases: [g]
+  description: "/gm 1|0|3"
+ fly:
+  aliases: [fl]
+  description: "/fly on|off"
+ setprefix:
+  aliases: [sp]
+  description: "/setprefix prefix"
+ kit:
+  aliases: [kt]
+  description: "/kit"
+ sleep:
+  aliases: [slp]
+  description: "/sleep"
+ goto:
+  aliases: [gt]
+  description: "/goto nickname"
+ shop:
+  aliases: [sp]
+  description: "/shop id count"
+ ap:
+  aliases: [ap]
+  description: "/ap id price"
+ ftp:
+  aliases: [fteleport]
+  description: "get"
+ report:
+  aliases: [rp]
+  description: "/report message"

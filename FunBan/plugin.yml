@@ -1,0 +1,16 @@
+name: FunBan
+main: Ragnok123\FunBan
+version: 1.0
+api: [3.0.0]
+load: POSTWORLD
+author: Ragnok123
+website: wallguard.esy.es
+commands:
+ fkick:
+  aliases: [wk]
+  description: "/fkick nickname reason"
+ fban:
+  description: "/fban nickname reason"
+ fpardon:
+  aliases: [pd]
+  description: "/fpardon nickname"

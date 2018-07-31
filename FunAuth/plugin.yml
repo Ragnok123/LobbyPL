@@ -1,0 +1,10 @@
+name: FunAuth
+main: Ragnok123\FunAuth
+version: 1.0
+api: [3.0.0]
+author: Ragnok123
+website: wallguard.esy.es
+load: POSTWORLD
+commands:
+ newpass:
+  description: newpass

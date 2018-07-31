@@ -1,0 +1,10 @@
+name: FunMoney
+main: Ragnok123\FunMoney
+version: 1.0
+api: [3.0.0]
+author: Ragnok123
+website: wallguard.esy.es
+load: POSTWORLD
+commands:
+ money:
+  description: "Money"

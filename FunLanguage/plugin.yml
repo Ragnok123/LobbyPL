@@ -1,0 +1,10 @@
+name: FunLanguage
+main: Ragnok123\FunLanguage
+version: 1.0
+api: [3.0.0]
+author: Ragnok123
+website: notreadymyweb.com
+load: POSTWORLD
+commands:
+ lang:
+  description: "Никому не нужная команда"

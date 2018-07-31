@@ -1,0 +1,10 @@
+name: FunPerms
+main: Ragnok123\FunPerms
+version: 1.0
+api: [3.0.0]
+author: Ragnok123
+website: wallguard.esy.es
+load: POSTWORLD
+commands:
+ perms:
+  description: "Hlavní prikaz"

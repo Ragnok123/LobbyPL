@@ -1,0 +1,46 @@
+---
+# Example Look #
+# First 3 seconds: #
+#
+# Welcome to the BDG-Craft Server, {player}!
+# ================----------------------------------
+#        The best server, the best minigames!
+#
+# Next 3 seconds: #
+#
+# Welcome to the BDG-Craft Server, {player}!
+# =================================-----------------
+#      Visit our website: xxxx.xx!
+#
+# If you don't define the top message, the changing messages will be displayed there. #
+
+#         Changing messages are up here :P
+# ==================================================
+head-message: "        {BOLD}{AQUA}BDG{RESET}{BLACK}-{RESET}{YELLOW}Craft{RESET}{BLACK}-{RESET}{RED}News:{RESET}{GOLD}SkyWars         "
+# Changing messages are here
+# To set the percentage of the bar add {number%} before the message!
+# Otherwise it takes the percentage that was there before.
+# Example for a 25% filled: "{25%}This is a quarter filled bar >>"
+changing-messages:
+ - "{0%}{BOLD}{AQUA}Twitter{RESET}: @bdgmcpe"
+ - "{25%}{BOLD}{WHITE}You{RED}Tube{RESET}: BDGCraft"
+ - "{50%}{BOLD}{BLUE}Facebook{RESET}: BDGCraft - MCPE CZ/SK Server"
+ - "{75%}{BOLD}Owner twitter{RESET}: @McGrimmi"
+ - "{100%}{BOLD}Developer twitter{RESET}: @ragnok123"
+# How fast the messages switch in seconds
+change-speed: 5
+# This changes the behaviour for multiple worlds
+# Mode 0: see the bar in every world
+# Mode 1: see ONLY in the worlds in the array
+# Mode 2: DON'T see in worlds in the array
+mode: 0
+# Worlds: use the worldname, seperate with " , "
+# Example: Mode 0, worlds: ["world", "lobby", "survival"]
+worlds: []
+#Formatting strings:
+#{display_name}, {name}, {world}, {level_players}, {server_players}, {server_max_players}, {hour}, {minute}
+#{second}, {BLACK}, {DARK_BLUE}, {DARK_GREEN}, {DARK_AQUA}, {DARK_RED}, {DARK_PURPLE}, {GOLD}, {GRAY}
+#{DARK_GRAY}, {BLUE}, {GREEN}, {AQUA}, {RED}, {LIGHT_PURPLE}, {YELLOW}, {WHITE}, {OBFUSCATED}, {BOLD}
+#{STRIKETHROUGH}, {UNDERLINE}, {ITALIC}, {RESET}
+#&0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+...

@@ -1,0 +1,10 @@
+name: FunGadgets
+main: Ragnok123\FunGadgets\FunGadgets
+api: 3.0.0
+version: 1.0
+author: Ragnok123
+load: POSTWORLD
+commands: 
+ gadgets:
+  description: gadgets
+  default: op

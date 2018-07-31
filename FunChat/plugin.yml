@@ -1,0 +1,7 @@
+name: FunChat
+main: Ragnok123\FunChat
+version: 1.0
+api: [3.0.0]
+load: POSTWORLD
+author: Ragnok123
+website: wallguard.esy.es
